@@ -1,0 +1,42 @@
+/*komentar biar cepet block dl trs ctrl plus garing */
+
+/*Start Body*/
+body {
+    margin: 0;
+    padding: 0;
+    color: #24292e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+/*End Body*/
+
+/*Start Debug*/
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red
+}
+/*End Debug*/
+
+/*Start Container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*End Container*/
+
+/*Start Logo*/
+.logo {
+    text-align: center;
+}
+/*End Logo*/
