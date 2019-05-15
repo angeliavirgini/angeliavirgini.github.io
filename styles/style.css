@@ -1,4 +1,6 @@
 /*Start Font */
+    @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+    @import url('https://fonts.googleapis.com/css?family=Acme');
     @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 /*End Font*/
 
@@ -103,12 +105,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 28px;
+    font-family: 'Acme', sans-serif;
 }
 h2 {
     font-size: 24px;
 }
 h3 {
     font-size: 18px;
+    font-family: 'Coming Soon', cursive;
+
 }
 h4 {
     font-size: 16px;
