@@ -1,7 +1,9 @@
 /*Start Font */
+    @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
     @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
     @import url('https://fonts.googleapis.com/css?family=Acme');
     @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+    @import url(https://fonts.googleapis.com/css?family=Raleway);
 /*End Font*/
 
 /*Start Body*/
@@ -63,7 +65,11 @@ a:active {
     font-family: 'Architects Daughter', cursive;
 }
 .menu-primer ul {
-    background-color: #24292e;
+    /* background-color: #24292e; */
+    background: #dd1818;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     border-radius: 4px;
     box-shadow: 
         0 3px 5px -1px rgba(0,0,0,.2),
@@ -120,6 +126,7 @@ h4 {
 }
 h5 {
     font-size: 14px;
+    font-family: 'Coming Soon', cursive;
 }
 h6 {
     font-size: 13px;
@@ -128,10 +135,10 @@ h6 {
 
 /*Start Jumbotron*/
 .jumbotron {
-    background-color: #f6f8fa;
-    border: 1px solid #eaecef;
+    /* background-color: #f6f8fa; */
+    /* border: 1px solid #eaecef; */
     border-radius: 4px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .jumbotron h1 {
     font-size: 32px;
@@ -140,6 +147,33 @@ h6 {
 .jumbotron h3 {
     font-size: 20px;
     padding: 0 20px;
+}
+.content {
+    width: 48%;
+    float: left;
+    height: 270px;
+    border: 2px rgb(194, 255, 175);
+    padding-top: 70px;
+    padding-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+ }
+ 
+ .sidebar {
+    width: 48%;
+    float: right;
+    height: 270px;
+    border: 2px rgb(172, 249, 255);
+    padding-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+ }
+.sidebar2 {
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
 }
 /*End Jumbotron*/
 
@@ -156,13 +190,125 @@ h6 {
 .main-home-two .box-isi {
     height: 150px;
 }
-
 .main-one {
     float: left;
     overflow: auto;
     width: 70%;
 }
+.fonties {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
 /*End Main*/
+
+/* Start Menu MM */
+.snip1584 {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+  }
+  .snip1584 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  .snip1584:before {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 100%;
+    content: '';
+    background-color: rgba(51, 51, 51, 0.9);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+  }
+  .snip1584 img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+  }
+  .snip1584 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .snip1584 h3,
+  .snip1584 h5 {
+    margin: 0;
+    opacity: 0;
+    letter-spacing: 1px;
+  }
+  .snip1584 h3 {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    margin-bottom: 5px;
+  }
+  .snip1584 h5 {
+    font-weight: normal;
+    background-color: #ae895d;
+    padding: 3px 10px;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  .snip1584 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .snip1584:hover:before,
+  .snip1584.hover:before {
+    top: 10px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  .snip1584:hover h3,
+  .snip1584.hover h3,
+  .snip1584:hover h5,
+  .snip1584.hover h5 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .snip1584:hover h3,
+  .snip1584.hover h3 {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  .snip1584:hover h5,
+  .snip1584.hover h5 {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+/*End Menu MM */
 
 /*Start Sidebar*/
 .sidebar-two {
@@ -253,9 +399,9 @@ input[type="submit"],
 
 /*Start Menu Sekunder*/
 .menu-sekunder {
-    background-color: #f6f8fa;
+    /* background-color: #f6f8fa;
     border-bottom: 1px solid #eaecef;
-    border-top: 1px solid #eaecef;
+    border-top: 1px solid #eaecef; */
     overflow: auto;
     padding: 10px 0;
 }
@@ -296,7 +442,9 @@ input[type="submit"],
 /*Start Copyright*/
 p {
     font-size: 15px;
-
+}
+.center {
+    text-align: center;
 }
 /*End Copyright*/
-
+ 
