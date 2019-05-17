@@ -5,6 +5,8 @@
     @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
     @import url(https://fonts.googleapis.com/css?family=Raleway);
     @import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 /*End Font*/
 
 /*Start Body*/
@@ -113,6 +115,7 @@ h1 {
 }
 h2 {
     font-size: 24px;
+    font-family: 'Fredoka One', cursive;
 }
 h3 {
     font-size: 18px;
@@ -382,6 +385,9 @@ input[type="submit"],
 /*Start Contact Form*/
 .contact-form div {
     margin: 20px 0;
+}
+.fonter {
+    font-family: 'Roboto Mono', monospace;
 }
 /*End Contact Form*/
 
