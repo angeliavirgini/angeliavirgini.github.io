@@ -2,7 +2,7 @@
     @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
     @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
     @import url('https://fonts.googleapis.com/css?family=Acme');
-    @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+    @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
     @import url(https://fonts.googleapis.com/css?family=Raleway);
     @import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
 /*End Font*/
@@ -63,7 +63,7 @@ a:active {
 
 /*Start Menu Primer*/
 .menu-primer {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Acme', sans-serif;
     text-align: center;
 }
 .menu-primer ul {
@@ -77,7 +77,6 @@ a:active {
         0 6px 10px 0 rgba(0,0,0,.14),
         0 1px 10px 0 rgba(0,0,0,.12);
 }
-
 .menu-primer li {
     border-right: 1px solid #d1d5da;
     display: inline-block;
@@ -91,13 +90,11 @@ a:active {
     padding: 10px 40px;
     text-transform: uppercase;
 }
-
 .menu-primer a:hover {
     background-color: #f7f7f7;
     color: #000000;
     text-decoration: none;
 }
-
 .menu-primer .active {
     background-color: #ffffff;
     color: #333333;
@@ -200,9 +197,11 @@ h6 {
 }
 /*End Main*/
 
-/* Start Menu MM */
+/* Start Menu*/
 .snip1584 {
     font-family: 'Raleway', sans-serif;
+    height: 200px;
+    width: 300px;
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -307,7 +306,7 @@ h6 {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
   }
-/*End Menu MM */
+/*End Menu*/
 
 /*Start Sidebar*/
 .sidebar-two {
@@ -392,7 +391,7 @@ input[type="submit"],
     background: -webkit-linear-gradient(to right, #333333, #dd1818);
     background: linear-gradient(to right, #333333, #dd1818); 
     overflow: auto;
-    padding: 5px 5px;
+    padding: 40px 5px;
     text-align: center;
 }
 .menu-sekunder h4 {
