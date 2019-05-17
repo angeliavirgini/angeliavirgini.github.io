@@ -4,6 +4,7 @@
     @import url('https://fonts.googleapis.com/css?family=Acme');
     @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
     @import url(https://fonts.googleapis.com/css?family=Raleway);
+    @import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
 /*End Font*/
 
 /*Start Body*/
@@ -63,13 +64,13 @@ a:active {
 /*Start Menu Primer*/
 .menu-primer {
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 .menu-primer ul {
     /* background-color: #24292e; */
-    background: #dd1818;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333333, #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #dd1818;
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    background: linear-gradient(to right, #333333, #dd1818); 
     border-radius: 4px;
     box-shadow: 
         0 3px 5px -1px rgba(0,0,0,.2),
@@ -119,7 +120,6 @@ h2 {
 h3 {
     font-size: 18px;
     font-family: 'Coming Soon', cursive;
-
 }
 h4 {
     font-size: 16px;
@@ -159,7 +159,6 @@ h6 {
     text-align: center;
     align-items: center;
  }
- 
  .sidebar {
     width: 48%;
     float: right;
@@ -342,26 +341,16 @@ h6 {
 
 /*Start Testimonial*/
 .testimonial {
-    border-left: 4px solid #dfe2e5;
+    border-left: 4px solid #e74c3c ;
     margin-left: 30px;
     padding-left: 20px;
 }
+.fonty {
+    font-family:  'Short Stack', cursive;
+    font-size: 16px;
+    color: #e74c3c;
+}
 /*End Testimonial*/
-
-/*Start Menu Table*/
-.menu-table {
-    border: 1px solid #d1d5da;
-    border-collapse: collapse;
-    margin: auto;
-    width: 100%;
-}
-.menu-table th {
-    background-color: #f6f8fa;
-}
-.menu-table td {
-    text-align: center;
-}
-/*End Menu Table*/
 
 /*Start Form*/
 input[type="text"],
@@ -399,16 +388,19 @@ input[type="submit"],
 
 /*Start Menu Sekunder*/
 .menu-sekunder {
-    /* background-color: #f6f8fa;
-    border-bottom: 1px solid #eaecef;
-    border-top: 1px solid #eaecef; */
+    background: #dd1818;
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    background: linear-gradient(to right, #333333, #dd1818); 
     overflow: auto;
-    padding: 10px 0;
+    padding: 5px 5px;
+    text-align: center;
 }
 .menu-sekunder h4 {
     font-size: 14px;
     margin: 0 auto;
     text-transform: uppercase;
+    color: #eaecef;
+    font-family: 'Permanent Marker', cursive;
 }
 .menu-sekunder ul {
     padding: 0;
@@ -420,14 +412,19 @@ input[type="submit"],
 .menu-sekunder li a,
 .menu-sekunder p { 
     font-size: 15px;
+    color: #eaecef;
+    font-family: 'Architects Daughter', cursive;
 }
 .menu-sekunder-one,
 .menu-sekunder-two,
 .menu-sekunder-three {
     float: left;
 }
-.menu-sekunder-one {
-    width: 40%;
+.menu-sekunder-one  {
+    width: 34%;
+}
+#a {
+    color: #eaecef;
 }
 .menu-sekunder-two,
 .menu-sekunder-three {
@@ -445,6 +442,7 @@ p {
 }
 .center {
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 /*End Copyright*/
  
