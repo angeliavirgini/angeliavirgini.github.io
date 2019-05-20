@@ -70,9 +70,10 @@ a:active {
 }
 .menu-primer ul {
     /* background-color: #24292e; */
-    background: #dd1818;
-    background: -webkit-linear-gradient(to right, #333333, #dd1818);
-    background: linear-gradient(to right, #333333, #dd1818); 
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+
     border-radius: 4px;
     box-shadow: 
         0 3px 5px -1px rgba(0,0,0,.2),
@@ -85,7 +86,7 @@ a:active {
 }
 
 .menu-primer a {
-    color: #ffffff;
+    color: #E5E5DE;
     font-size: 13px;
     display: inline-block;
     letter-spacing: 1px;
@@ -140,6 +141,9 @@ h6 {
     border-radius: 4px;
     /* padding: 20px 0; */
 }
+.jumbotron1 {
+    width: 80%;
+}
 .jumbotron h1 {
     font-size: 32px;
     padding: 0 20px;
@@ -153,11 +157,9 @@ h6 {
     float: left;
     height: 270px;
     border: 2px rgb(194, 255, 175);
-    padding-top: 70px;
-    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-right: 10px;
-    text-align: center;
-    align-items: center;
  }
  .sidebar {
     width: 48%;
@@ -165,6 +167,8 @@ h6 {
     height: 270px;
     border: 2px rgb(172, 249, 255);
     padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
     margin-right: 10px;
     text-align: center;
     align-items: center;
@@ -311,6 +315,10 @@ h6 {
   }
 /*End Menu*/
 
+/* Start Gallery */
+
+/* End Gallery */
+
 /*Start Sidebar*/
 .sidebar-two {
     float: right;
@@ -380,6 +388,12 @@ input[type="submit"],
     text-decoration: none !important;
     letter-spacing: 1px;
 }
+.right {
+    float: right;
+}
+.left {
+    float:left;
+}
 /*End Form*/
 
 /*Start Contact Form*/
@@ -393,12 +407,11 @@ input[type="submit"],
 
 /*Start Menu Sekunder*/
 .menu-sekunder {
-    background: #dd1818;
-    background: -webkit-linear-gradient(to right, #333333, #dd1818);
-    background: linear-gradient(to right, #333333, #dd1818); 
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
     overflow: auto;
-    padding: 40px 5px;
-    text-align: center;
+    padding: 20px 10px;
 }
 .menu-sekunder h4 {
     font-size: 14px;
@@ -417,7 +430,7 @@ input[type="submit"],
 .menu-sekunder li a,
 .menu-sekunder p { 
     font-size: 15px;
-    color: #eaecef;
+    color: #CACCC5;
     font-family: 'Architects Daughter', cursive;
 }
 .menu-sekunder-one,
@@ -426,12 +439,17 @@ input[type="submit"],
     float: left;
 }
 .menu-sekunder-one  {
-    width: 34%;
+    width: 30%;
+    /* padding-left: 30px; */
+    margin-left: 10%;
 }
 #a {
-    color: #eaecef;
+    color: #CACCC5;
 }
-.menu-sekunder-two,
+.menu-sekunder-two {
+    width: 30%;
+
+}
 .menu-sekunder-three {
     width: 30%;
 }
@@ -440,6 +458,12 @@ input[type="submit"],
     margin: 4px 4px;
 }
 /*End Menu Sekunder*/
+
+/* Start Center */
+.center {
+    text-align: center;
+}
+/* End Center */
 
 /*Start Copyright*/
 p {
