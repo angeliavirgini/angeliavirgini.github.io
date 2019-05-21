@@ -7,6 +7,7 @@
     @import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Stylish&display=swap');
 /*End Font*/
 
 /*Start Body*/
@@ -381,13 +382,14 @@ input[type="submit"],
     border: 1px solid rgba(27,31,35,0.2);
     border-radius: 4px;
     color: #000000 !important;
-    font-size: 12px;
     font-weight: bold;
     margin: 5px 0;
     padding: 5px 10px;
     text-transform: uppercase;
     text-decoration: none !important;
     letter-spacing: 1px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 16px;
 }
 .right {
     float: right;
@@ -402,6 +404,9 @@ input[type="submit"],
 /*Start Contact Form*/
 .contact-form div {
     margin: 20px 0;
+    color: #8E0E00;
+    font-family: 'Stylish', sans-serif;
+    font-size: 20px;
 }
 .fonter {
     font-family: 'Roboto Mono', monospace;
@@ -562,3 +567,9 @@ p {
 }
 /*End Copyright*/
  
+/* Start Spacer */
+.spacer {
+    margin-top: 100px;
+}
+/* End Spacer*/
+
