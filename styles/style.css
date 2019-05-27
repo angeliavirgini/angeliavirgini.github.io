@@ -467,7 +467,7 @@ input[type="submit"],
 }
 /*End Menu Sekunder*/
 
-/* Start Q n A */
+/* Start Testimonial */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 figure.snip1390 {
@@ -545,11 +545,15 @@ figure.snip1390 .profile {
     width: 50%;
     float: left;
 }
+a.mt {
+    color: #e74c3c;
+    text-decoration: none;
+}
 /* .righty {
     width: 20%;
     float: left;
 } */
-/* End Q n A */
+/* End Testimonial */
 
 /* Start Center */
 .center {
